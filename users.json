@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Joao",
+        "age": 22,
+        "knowledge": [
+            {
+                "language": "Javascript",
+                "frameworks": [
+                    "express.js",
+                    "hapi.js",
+                    "AngularJS"
+                ]
+            },
+            {
+                "language": "Java",
+                "frameworks": [
+                    "Play"
+                ]
+            },
+            {
+                "language": "Python",
+                "frameworks": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Maria",
+        "age": 20,
+        "knowledge": [
+            {
+                "language": "Javascript",
+                "frameworks": [
+                    "ReactJS",
+                    "AngularJS"
+                ]
+            },
+            {
+                "language": "Java",
+                "frameworks": [
+                    "Play",
+                    "Spring"
+                ]
+            },
+            {
+                "language": "Python",
+                "frameworks": [
+                    "Django"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ana",
+        "age": 20,
+        "knowledge": [
+            {
+                "language": "Javascript",
+                "frameworks": [
+                    "ReactJS",
+                    "express.js"
+                ]
+            },
+            {
+                "language": "Ruby",
+                "frameworks": [
+                    "Ruby on Rails"
+                ]
+            },
+            {
+                "language": "Python",
+                "frameworks": [
+                    "Django"
+                ]
+            }
+        ]
+    }
+]
