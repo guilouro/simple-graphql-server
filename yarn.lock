@@ -62,6 +62,10 @@ apollo-tracing@^0.0.7:
   dependencies:
     graphql-tools "^1.1.0"
 
+apollo-utilities@^0.1.1-0:
+  version "0.1.1-1"
+  resolved "https://registry.yarnpkg.com/apollo-utilities/-/apollo-utilities-0.1.1-1.tgz#a637c2a5b49e06f20dd9adf7c55ec1ff69a97592"
+
 aproba@^1.0.3:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/aproba/-/aproba-1.1.2.tgz#45c6629094de4e96f693ef7eab74ae079c240fc1"
@@ -1093,7 +1097,7 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-tools@^1.1.0, graphql-tools@^1.2.2:
+graphql-tools@^1.1.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-1.2.2.tgz#ff791e91b78e05eec18a32716a7732bc7bf5cb4d"
   dependencies:
@@ -1101,6 +1105,14 @@ graphql-tools@^1.1.0, graphql-tools@^1.2.2:
     uuid "^3.0.1"
   optionalDependencies:
     "@types/graphql" "^0.9.0"
+
+graphql-tools@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.6.1.tgz#9f6d1600951a05b18b83c52986c42eee4fd3cb1b"
+  dependencies:
+    apollo-utilities "^0.1.1-0"
+    deprecated-decorator "^0.1.6"
+    uuid "^3.1.0"
 
 graphql@^0.11.3:
   version "0.11.3"
@@ -2009,7 +2021,7 @@ utils-merge@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.0.tgz#0294fb922bb9375153541c4f7096231f287c8af8"
 
-uuid@^3.0.0, uuid@^3.0.1:
+uuid@^3.0.0, uuid@^3.0.1, uuid@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
