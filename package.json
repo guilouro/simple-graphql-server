@@ -10,7 +10,7 @@
     "debug": "./node_modules/.bin/babel-node --nolazy --inspect-brk=9229 ./src/app.js"
   },
   "dependencies": {
-    "apollo-server-express": "^1.1.2",
+    "apollo-server-express": "^2.14.2",
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "graphql": "^0.11.3",
